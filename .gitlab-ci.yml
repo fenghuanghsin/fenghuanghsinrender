@@ -1,0 +1,9 @@
+pages:
+  stage: deploy
+  script:
+    - echo "🚀 Deploying from repo root"
+  artifacts:
+    paths:
+      - .
+  only:
+    - main   # 或 master，看你分支
